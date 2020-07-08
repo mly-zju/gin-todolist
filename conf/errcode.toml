@@ -1,0 +1,26 @@
+# 影响可用性的以1开头
+[[List]]
+Name = "dbTimeout"
+Errno = 1001
+ErrMsg = "网络异常"
+InnerErrMsg = "dbTimeout"
+
+[[List]]
+Name = "redisTimeout"
+Errno = 1002
+ErrMsg = "网络异常"
+InnerErrMsg = "redisTimeout"
+
+# 不影响可用性的以2开头
+[[List]]
+Name = "paramsError"
+Errno = 2001
+ErrMsg = "参数错误"
+InnerErrMsg = "paramsError"
+
+# 文章相关的以3开头
+[[List]]
+Name = "itemNotExist"
+Errno = 3001
+ErrMsg = "文章不存在"
+InnerErrMsg = "itemNotExist"

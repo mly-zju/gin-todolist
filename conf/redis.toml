@@ -1,0 +1,11 @@
+Name = "todolist"
+IP = "127.0.0.1"
+Port = 6379
+Password = ""
+
+ConnTimeOut = 1500
+WriteTimeOut = 1500
+ReadTimeOut = 1500
+Retry = 0
+Reuse = true
+Strategy = "random"

@@ -1,0 +1,14 @@
+IP = "127.0.0.1"
+Port = 3306
+Username = "mly"
+Password = "12345"
+DBName = "todolist"
+
+ConnTimeOut = 100
+ReadTimeOut = 500
+WriteTimeOut = 500
+ConnMaxLifeTime = 5000
+MaxIdleConns = 1
+MaxOpenConns = 2
+Prepare = false
+Strategy = "random"

@@ -1,0 +1,17 @@
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /taglist                  --> gin-todolist/library/base.(*BaseController).HandleFunc-fm (4 handlers)
+[GIN-debug] GET    /itemlist                 --> gin-todolist/library/base.(*BaseController).HandleFunc-fm (4 handlers)
+[GIN-debug] POST   /itemedit                 --> gin-todolist/library/base.(*BaseController).HandleFunc-fm (4 handlers)
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+[info] spend time: 14275
+[GIN] 2020/07/07 - 11:54:00 | 200 |   14.324532ms |             ::1 | GET      /itemlist?id=2
+[info] cache hit with key: item_list_2
+[info] spend time: 810
+[GIN] 2020/07/07 - 11:54:01 | 200 |     837.887µs |             ::1 | GET      /itemlist?id=2
